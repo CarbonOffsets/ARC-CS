@@ -273,7 +273,7 @@ The main differences are highlighted below:
 Valid JSON Metadata files for ERC-1155 are valid JSON Metadata files for ARC-3.
 However, it is highly recommended that users always include the additional RECOMMENDED fields, such as the integrity fields.
 
-The asset name is either `arc3` or suffixed by `@arc3` to allow client software to know when an asset follows the conventions.
+The asset name is either `arcCS` or suffixed by `@arcCS` to allow client software to know when an asset follows the conventions.
 
 ## Copyright
 
