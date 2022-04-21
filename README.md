@@ -273,10 +273,10 @@ The main differences are highlighted below:
 * When extra metadata are provided, the Asset Metadata Hash parameter is computed using SHA-512/256 with prefix for proper domain separation. SHA-512/256 is the hash function used in Algorand in general (see the list of prefixes in https://github.com/algorand/go-algorand/blob/master/protocol/hash.go). Domain separation is especially important in this case to avoid mixing hash of the JSON Metadata file with extra metadata. However, since SHA-512/256 is less common and since not every tool or library allows to compute SHA-512/256, when no extra metadata is specified, SHA-256 is used instead.
 * Support for relative URI is added to allow storing both the JSON Metadata files and the files it refers to in the same IPFS directory.
 
-Valid JSON Metadata files for ERC-1155 are valid JSON Metadata files for ARC-3.
+Valid JSON Metadata files for ERC-1155 are valid JSON Metadata files for ARC-000CS.
 However, it is highly recommended that users always include the additional RECOMMENDED fields, such as the integrity fields.
 
-The asset name is either `arc3` or suffixed by `@arc3` to allow client software to know when an asset follows the conventions.
+The asset name is either `arcCS` or suffixed by `@arcCS` to allow client software to know when an asset follows the conventions.
 
 ## Copyright
 
