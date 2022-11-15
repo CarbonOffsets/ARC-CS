@@ -1,0 +1,26 @@
+{
+    "title":"DEPD####",
+    "name":"CarbonStackToken TEST",
+    "description":"Placeholder for a reforestation project in Germany",
+    "satellite_image":"" ,
+    "satellite_image_integrity":"",
+    "satellite_image_mimetype":"jpg" ,
+    "external_url":"",
+    "external_url_integrity":"",
+    "external_url_mimetype":"",
+    "standard":"",
+    "standard_url":"",
+    "standard_url_integrity":"",
+    "standard_url_mimetype": "",
+    "shortfall_security_link":"",
+    "shortfall_security_link_integrity":"",
+    "shortfall_security_link_mimetype":"",
+    "forestation_attributes":
+    {
+        "central-coordinates": ["51.10","10.27"],
+        "country":"Germany",
+        "county":"",
+        "project_id":"###",
+        "projected_carbon_stock":"####"
+    }
+}
